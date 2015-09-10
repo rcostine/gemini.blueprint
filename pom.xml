@@ -32,8 +32,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Spring version -->
-        <spring.maven.artifact.version>4.1.1.RELEASE_3-SNAPSHOT</spring.maven.artifact.version>
-        <spring.base.version>4.1.1</spring.base.version>
+        <spring.maven.artifact.version>4.1.6.RELEASE_1</spring.maven.artifact.version>
+        <spring.base.version>4.1.6</spring.base.version>
 
         <symName.prefix>org.eclipse.gemini.blueprint</symName.prefix>
         <spring.osgi.symbolic.name>${project.groupId}.${project.artifactId}</spring.osgi.symbolic.name>
