@@ -32,8 +32,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Spring version -->
-        <spring.maven.artifact.version>4.1.6.RELEASE_1</spring.maven.artifact.version>
-        <spring.base.version>4.1.6</spring.base.version>
+        <spring.maven.artifact.version>4.2.2.RELEASE_1</spring.maven.artifact.version>
+        <spring.base.version>4.2.2</spring.base.version>
 
         <symName.prefix>org.eclipse.gemini.blueprint</symName.prefix>
         <spring.osgi.symbolic.name>${project.groupId}.${project.artifactId}</spring.osgi.symbolic.name>
@@ -114,6 +114,13 @@
             scm:git:ssh://{user.name}@git.eclipse.org/gitroot/gemini.blueprint/org.eclipse.gemini.blueprint.git
         </developerConnection>
     </scm>
+<!--
+  <scm>
+    <connection>scm:git:git://github.com/rcostine/gemini.blueprint.git</connection>
+    <developerConnection>scm:git:git://github.com/rcostine/gemini.blueprint.git</developerConnection>
+    <url>https://github.com/rcostine/gemini.blueprint.git</url>
+  </scm>
+-->
 
     <developers>
         <developer>
