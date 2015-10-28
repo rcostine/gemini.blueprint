@@ -7,12 +7,12 @@
     <parent>
         <groupId>org.eclipse.gemini.blueprint.iandt</groupId>
         <artifactId>gemini-blueprint-integration-test-bundles</artifactId>
-        <version>2.0.1.CCAD-06242015</version>
+        <version>2.0.1.CCAD-10142015</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>ns.own.consumer</artifactId>
-	<packaging>jar</packaging>
+  <packaging>jar</packaging>
     <name>Gemini Blueprint Test Bundle: namespace provider and consumer bundle</name>
     <description>A simple namespace bundle that provides and uses its own namespace</description>
     <url>http://www.eclipse.org/gemini/blueprint/</url>
